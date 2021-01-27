@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "idems-ng-starter": {
+    "esther-portfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "baseHref": ".",
-            "outputPath": "dist/idems-ng-starter",
+            "outputPath": "dist/esther-portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "idems-ng-starter:build"
+            "browserTarget": "esther-portfolio:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "idems-ng-starter:build:production"
+              "browserTarget": "esther-portfolio:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "idems-ng-starter:build"
+            "browserTarget": "esther-portfolio:build"
           }
         },
         "test": {
@@ -114,16 +114,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "idems-ng-starter:serve"
+            "devServerTarget": "esther-portfolio:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "idems-ng-starter:serve:production"
+              "devServerTarget": "esther-portfolio:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "idems-ng-starter"
+  "defaultProject": "esther-portfolio"
 }

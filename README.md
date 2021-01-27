@@ -3,9 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
 ## Instructions for use in your own website
-Make sure to do a find replace for idems-ng-starter and replace it with the name of your repository.
+Make sure to do a find replace for esther-portfolio and replace it with the name of your repository.
 
-For example if your repository is called awesome-portfolio-website use find replace to replace all instances of idems-ng-starter with awesome-portfolio-website.
+For example if your repository is called awesome-portfolio-website use find replace to replace all instances of esther-portfolio with awesome-portfolio-website.
 
 ## Development server
 

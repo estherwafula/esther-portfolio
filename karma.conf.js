@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/idems-ng-starter'),
+      dir: require('path').join(__dirname, './coverage/esther-portfolio'),
       subdir: '.',
       reporters: [
         { type: 'html' },
