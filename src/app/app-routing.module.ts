@@ -4,7 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { AchievementComponent } from './achievement/achievement.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { HomeComponent } from './home/home.component';
-import { MyWorkComponent } from './my-work/my-work.component';
+
 
 const routes: Routes = [
   {
@@ -15,10 +15,7 @@ const routes: Routes = [
     path: "about",
     component: AboutComponent
   },
-  {
-    path: "mywork",
-    component: MyWorkComponent
-  },
+  
   {
     path: "contacts",
     component: ContactsComponent

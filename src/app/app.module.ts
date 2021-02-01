@@ -8,7 +8,6 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
-import { MyWorkComponent } from './my-work/my-work.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { AchievementComponent } from './achievement/achievement.component';
 
@@ -20,7 +19,6 @@ import { AchievementComponent } from './achievement/achievement.component';
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    MyWorkComponent,
     ContactsComponent,
     AchievementComponent,
     
