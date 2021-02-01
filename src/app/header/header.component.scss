@@ -1,10 +1,19 @@
 header {
     flex: none;
-    background-color:blueviolet;
-    color: white;
-    padding: 10px;
+    background-color:pink;
+    color: black;
+    padding : 10px;
     font-size: 20px;
 }
-.link{
-    display: box;
+
+
+.links{
+    display: flex;
+    justify-content: space-between;
 }
+
+
+
+
+
+
