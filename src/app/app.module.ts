@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { AchievementComponent } from './achievement/achievement.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { AchievementComponent } from './achievement/achievement.component';
     AboutComponent,
     ContactsComponent,
     AchievementComponent,
+    SidebarComponent,
     
   ],
   imports: [
