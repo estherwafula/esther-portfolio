@@ -1,4 +1,14 @@
 .sidebar {
     background: red;
     color: white;
+    width: 200px;
+    height: 100vh;
+}
+
+.links {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
 }
