@@ -9,4 +9,16 @@ img.essy {
   img {
     border-radius: 50%;
   }
-  
+ 
+  home {
+    flex: none;
+    background-color:pink;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.icon {
+    width: 50px;
+    padding: 10px;
+}
